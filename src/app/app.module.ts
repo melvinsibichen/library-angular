@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { BooksearchComponent } from './booksearch/booksearch.component';
+import { BookdeleteComponent } from './bookdelete/bookdelete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminloginComponent,
-    BooksearchComponent
+    BooksearchComponent,
+    BookdeleteComponent
   ],
   imports: [
     BrowserModule,
