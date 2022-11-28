@@ -8,6 +8,7 @@ import { BooksearchComponent } from './booksearch/booksearch.component';
 import { BookdeleteComponent } from './bookdelete/bookdelete.component';
 import { RouterModule, Routes } from '@angular/router';
 import { EditbookComponent } from './editbook/editbook.component';
+import { BookaddComponent } from './bookadd/bookadd.component';
 
 const myRoute:Routes=[
   {
@@ -34,7 +35,8 @@ const myRoute:Routes=[
     AdminloginComponent,
     BooksearchComponent,
     BookdeleteComponent,
-    EditbookComponent
+    EditbookComponent,
+    BookaddComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './editbook.component.html',
   styleUrls: ['./editbook.component.css']
 })
-export class EditbookComponent {
+export class BookEditComponent {
+  title=""
 
+  readValues = ()=>{
+    let value:any = {"title":this.title}
+    console.log(value)
+  }
 }
